@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/magazyns",
+      "handler": "magazyn.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/magazyns/count",
+      "handler": "magazyn.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/magazyns/:id",
+      "handler": "magazyn.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/magazyns",
+      "handler": "magazyn.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/magazyns/:id",
+      "handler": "magazyn.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/magazyns/:id",
+      "handler": "magazyn.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

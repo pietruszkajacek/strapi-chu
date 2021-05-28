@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "magazyns",
+  "info": {
+    "name": "Magazyn",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Opis": {
+      "type": "string"
+    },
+    "Nr": {
+      "type": "integer"
+    }
+  }
+}

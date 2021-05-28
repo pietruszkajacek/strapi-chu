@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_zaplecze_magazynowes",
+  "info": {
+    "name": "ZapleczeMagazynowe",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "magazyns": {
+      "collection": "magazyn"
+    },
+    "tekst": {
+      "type": "string"
+    }
+  }
+}
